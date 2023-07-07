@@ -6,8 +6,6 @@ set(CMAKE_BUILD_TYPE Release)
 
 find_package(catkin REQUIRED COMPONENTS
   livox_ros_driver
-  pcl_conversions
-  pcl_ros
   roscpp
   sensor_msgs
 )
