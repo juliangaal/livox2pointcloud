@@ -13,7 +13,6 @@ find_package(catkin REQUIRED COMPONENTS
 find_library(LIVOX_SDK_LIBRARY VERSION EXACT 2.3.0 liblivox_sdk_static.a /usr/local/lib)
 
 catkin_package(
-  INCLUDE_DIRS include
   CATKIN_DEPENDS livox_ros_driver roscpp sensor_msgs
   DEPENDS system_lib
 )
